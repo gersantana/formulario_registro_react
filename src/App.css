@@ -1,0 +1,9 @@
+:root {
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(20deg, #111111 50% ,  rgb(36, 13, 58)99%);
+  max-width: 100%;
+  min-height: 100vh;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+}
