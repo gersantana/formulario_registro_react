@@ -1,8 +1,11 @@
 import './App.css'
+import Formaulario from './components/Formaulario/Formulario'
 
 const App = () => {
   return (
-    <div>hola soy gerardo santana</div>
+   
+    <Formaulario/>
+  
   )
 }
 
