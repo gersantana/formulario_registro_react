@@ -1,8 +1,11 @@
 import './App.css'
+import Registro from "./components/registro/Registro";
 
 const App = () => {
   return (
-    <div>hola soy gerardo santana</div>
+    <div>
+    <Registro/>
+    </div>
   )
 }
 
