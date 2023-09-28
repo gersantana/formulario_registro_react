@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 const Alerts = ({msg, color}) => {
   return (
     <div>
-        <p className={`w-25 d-inline-block text-center mt-3 alert alert-${color}`}>{msg}</p>
+        <p className={`w-100 text-center mt-3 alert alert-${color}`}>{msg}</p>
     </div>
   )
 }

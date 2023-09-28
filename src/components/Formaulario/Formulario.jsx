@@ -39,7 +39,7 @@ const Formaulario = ({setMsg,setError,setExito}) => {
     }
 
     return (
-        <div className=" w-25 d-inline-block">
+        <div className=" w-100 d-inline-block">
             <form onSubmit={manejarEnvio} className="d-flex flex-column gap-3">
                 <div className="">
                     <input
@@ -80,18 +80,14 @@ const Formaulario = ({setMsg,setError,setExito}) => {
                 </div>
                 <div>
                     <button
-                        className="btn btn-primary mt-4 w-100"
+                        className="btn btn-success mt-3 w-100"
                         type="submit">
                         Registrar
                     </button>
                     
                 </div>
             </form>
-            {/* {error && <p className={`alert alert-danger my-2`}>{msg}</p>}
-            {exito && <p className={`alert alert-success my-2`}>{msg}</p>}  */}
-            {/* {pas ? "contraseñas no coinciden" : (error ? "faltan campos" : exito ? "formulario enviado" : null)} */}
-            {/* <Alerts msg={msg} color={exito ? "success" : error ? "danger" : pas ? "danger" : ""} /> */}
-
+     
         </div>
     );
 };
