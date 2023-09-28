@@ -24,7 +24,7 @@ const Formaulario = ({setMsg,setError,setExito}) => {
         else if (password.trim() !== password2.trim()){
             setError(true)
             setExito(false)
-            setMsg(`Las contraseñas no coiciden.`)
+            setMsg(`Las contraseñas no coinciden.`)
             return
         }
         else{
